@@ -10,8 +10,8 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 #[AsCommand(
-    name: 'import-products',
-    description: 'Add a short description for your command',
+    name: 'import:products',
+    description: 'Import products',
 )]
 class ImportProductsCommand extends Command
 {
