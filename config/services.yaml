@@ -20,7 +20,7 @@ services:
     # please note that last definitions always *replace* previous ones
     App\Service\ProductImport\ProductImportService:
         arguments:
-            $batchSize: 3
+            $batchSize: 100
 
     App\Service\ProductImport\Reader\CsvReader:
         tags: ['app.reader']
